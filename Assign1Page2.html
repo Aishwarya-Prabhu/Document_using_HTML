@@ -1,0 +1,194 @@
+<html>
+
+<!-- Document title -->
+<title> U.S. Individual Income Tax Return </title>
+
+<!-- body starts here -->
+<body bgcolor="lightblue">
+
+<!-- form starts here -->
+<form method="GET">
+
+<div>
+	<font size="1.8"> Form 1040 (2018)</font>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+	<font size="1.8"> Page </font> <b> 2 </b>
+</div>
+<br/>
+<br/>
+<hr>
+
+<!-- Options to be filled starts here -->
+<div>
+	<b> 1 </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="wage"> Wages, salaries, tips, etc. Attach Form(s)W-2 <sup> * </sup> </label>
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . . . 1 <input type="text" name="wage" required>
+
+	<br/>
+
+	<b> 2a </b> &nbsp&nbsp&nbsp&nbsp <label for="taxexempt"> Tax-exempt interest </label> .  . . . . . . . . . . . . . 2a <input type="text" name="taxexempt"> 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b> b </b> <label for="taxint"> Taxable interest </label>. . . . 2b <input type="text" name="taxint">
+
+	<br/>
+
+	<b> 3a </b> &nbsp&nbsp&nbsp&nbsp <label for="qualdiv">Qualified dividends </label>.  . . . . . . . . . . . . . 3a <input type="text" name="qualdiv"> 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b> b </b> <label for="orddiv"> Ordinary dividends. .3b <input type="text" name="orddiv">
+
+	<br/>
+
+	<b> 4a </b> &nbsp&nbsp&nbsp&nbsp <label for="ira ">IRA's, pensions, and annuities </label>.  . . . . .4a <input type="text" name="ira"> 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <b> b </b> <label for="taxamt">Taxable amount. . . . 4b <input type="text" name="taxamt">
+
+	<br/>
+
+	<b> 5a </b> &nbsp&nbsp&nbsp&nbsp <label for="ssb">Social security benefits </label>. . . . . . . . . . . 5a <input type="text" name="ssb"> 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b> b </b> <label for="taamt"> Taxable amount </label>. . . . 5b <input type="text" name="taamt">
+
+	<br/>
+
+	<b> 6 </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+	<label for="totinc"> Total income. Add lines 1 through 5. Add any amount from Schedule 1, line 22 </label> <input type="text" size="5" name="totinc"> . . . . 6 <input type="text" name="totinc">
+
+	<br/>
+
+	<b> 7 </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="adjgross"> Adjusted gross income. If you have no adjustments to income, enter the amount from line 6; <br/> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp otherwise , subtract Schedule 1, line 36, from line 6 </label>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 <input type="text" name="adjgross">
+
+	<br/>
+
+	<b> 8  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="stddeduct"> Standard deduction or itemized deductions<sup> * </sup> </b> (from Schedule A) </label>. . . . . . . . . . . . . . . . . . . . . . . 8 <input type="text" name="stddeduct" required>
+
+	<br/>
+
+	<div style="background-color:cyan">
+			<b> Standard Deduction for -- </b>
+		<ul>
+			<li>Single or married filling separately, $12,000</li>
+			<li>Married filling jointly or Qualifying widow(er), $24,000 </li>
+			<li> Head of household, $18,000 </li>
+			<li> If you checked any box under Standard deduction, see instructions</li>
+		</ul>
+	</div>
+
+	<b> 9 </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="qual"> Qualified business income deductions (see instructions) </label>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9<input type="text" name="qual">
+	
+	<br/>
+	
+	<b> 10 </b> &nbsp&nbsp&nbsp&nbsp <label for="taxincome"> Taxable income. Subtract lines 8 and 9 from line 7. If zero or less, enter -0- </label>. . . . . . . . . . . . . . 10 <input type="text" name="taxincome">
+	
+	<br/>
+	
+	<b> 11 </b> &nbsp&nbsp&nbsp&nbsp a </b> <label for="tx"> Tax (see inst.) </label>
+	<input type="text" name="tx"> 
+	<label for="choose">(check if any from: </label>
+	<b> 1 </b> <input type="checkbox" name="choose"> Form(s) 8814 &nbsp&nbsp 
+	<b> 2 </b> <input type="checkbox" name="choose"> Form 4972 &nbsp&nbsp 
+	<b> 3 </b> <input type="checkbox" name="choose"> 
+	<input type="text" size="10" name="tx"> ) 
+	
+	<br/>
+	
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="addamt"> <b> b Add </b> any amount from Schedule 2 and check here </label>. . . . . . . . . . . . . . . . . . . . . . .  . . . . . <img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> </img> <input type="checkbox" name="addamt"> &nbsp&nbsp 11 <input type="text" name="tx">
+	
+	<br/>
+	
+	<b> 12 </b> &nbsp&nbsp&nbsp <label for="label12"> </label>
+	<b> a </b> Child tax credit/credit for other dependents </label> <input type="text" size ="4" name="label12"> &nbsp 
+	<b> b Add </b> any amount from Schedule 3 and check here <img> <img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> </img> </label>
+	<input type="checkbox" name="label12" checked> 12 <input type="text" size="4">
+	
+	<br/>
+	
+	<b> 13 </b> &nbsp&nbsp&nbsp <label for="subtract"> Subtract line 12 from line 11. If zero or less, enter -0- . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .13 </label> <input type="text" name="subtract">
+	
+	<br/>
+	
+	<b> 14 </b> &nbsp&nbsp&nbsp <label for="othertax"> Other taxes. Attach Schedule 4. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </label> 14 <input type="text" name="othertax">
+	
+	<br/>
+	
+	<b> 15 </b> &nbsp&nbsp&nbsp <label for="tottax"> Total tax. Add lines 13 and 14 </label>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .15 <input type="text" name="tottax">
+	
+	<br/>
+	
+	<b> 16 </b> &nbsp&nbsp&nbsp <label for="fedinctax"> Federal income tax withheld from Forms W-2 and 1099 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .16 <input type="text" name="fedinctax">
+	
+	<br/>
+	
+	<b> 17 </b> &nbsp&nbsp&nbsp <label for="refundcredits"> Refundable credits:  </label>
+		<b> a </b>EIC (see inst.) <input type="text" size="8" name="refundcredits">  
+		<b> b </b> Sch. 8812 <input type="text" size="8" value="1001" name="refundcredits"> &nbsp&nbsp 
+		<b> c </b> Form 8863  <input type="text" size="8" name="refundcredits">  
+	
+	<br/>
+	
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<b> Add </b> any amount from Schedule 5 <input type="text">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17 <input type="text" name="refundcredits"> 
+	
+	<br/>
+	
+	<b> 18 </b> &nbsp&nbsp <label for="addtotpau"> Add lines 16 and 17, These are your total payments </label>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 <input type="text" name="addtotpau"> 
+	
+	<br/>
+	
+	<hr>
+	
+	<b> 19 </b> &nbsp&nbsp  <label for="overpaid"> If line 18 is more than line 15, subtract line 15 from line 18. This is the amount you <b> overpaid </b> </label> . .19 <input type="text" size="18" name="overpaid"> 
+	
+	<br/>
+	
+	<b> 20a </b> &nbsp <label for="attachedform"> Amount of the line 19 you want <b> refunded to you. </b> 
+	If form 8888 is attached, check here. . . .  <img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> </img> </label>
+	<input type="checkbox" name="attachedform"> 20a <input type="text" size="15" name="attachedform"> 
+	
+	<br/>
+	
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> </img> 
+	<b> b </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="rounum"> Routing number </label> <input type="text" name="rounum"> 
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> </img>
+	 
+	<b> c </b> &nbsp&nbsp  <label for="acctype"> Type: </label>
+ 	<input type="radio" name="acctype" checked> Checking &nbsp&nbsp&nbsp 
+	<input type="radio" name="acctype"> Savings
+	
+	<br/>
+	
+	&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	<img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> </img> 
+	<b>d </b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <label for="accnum"> Account number </label> <input type="text" name="accnum"> 
+	
+	<br/>
+	
+	<b> 21 </b> &nbsp&nbsp <label for="esttax"> Amount of line 19 you want <b> applied to your 2019 estimated tax </b></label> . . . . . . . . . . . . . . . . . . . .
+	<img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> 21 
+	<input type="text" name="esttax">
+	
+	<hr>
+
+	
+	<b> 22 &nbsp&nbsp <label for="amtowe"> Amount you owe.</b> Subtract line 18 from line 15. For details on how to pay, see instructions. .</label>
+	<img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> 22 
+	<input type="text" size="18" name="amtowe">
+	
+	<br/>
+	
+	<b> 23 </b> &nbsp&nbsp <label for="estpenalty"> Estimated tax penalty (see instructions) </label>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . <img src="/Users/aishwaryaprabhu/Desktop/Web design/arrowhead.png" width="10px" height="10px"> 23 
+	<input type="text" name="estpenalty">
+</div>	
+<!-- Options to be filled ends here -->
+	<br/>
+	
+	<hr>
+
+<!-- Page ends -->	
+	<font size="1.8"><b>Go to <i> www.irs.gov/Form 1040 </I> for instructions and the latest information</b> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Form </font>
+	<font size="2.0"><b> 1040 </b></font>
+	<font size="1.8"> (2018) </font>
+
+<!-- form ends here -->
+</form>
+<!-- body ends here -->
+</body>
+<!-- End of html -->
+</html>
+
